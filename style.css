@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    justify-content: space-around;
+}
+
+.nav-tag {
+    text-decoration: none;
+}
