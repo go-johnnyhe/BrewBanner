@@ -1,7 +1,10 @@
 import React from "react"
+import Landing from "./Landing"
 
 export default function body() {
     return (
-        <h1>Body Goes Here</h1>
+        <>
+        <Landing/>
+        </>
     )
 }
