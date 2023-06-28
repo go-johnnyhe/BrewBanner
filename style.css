@@ -22,16 +22,6 @@ button:hover {
     background-color: #D3D3D3;
 }
 
-@media (max-width: 768px) {
-    h1 {
-        font-size: 0.8rem;
-    }
-    button {
-        font-size: 0.7rem;
-        width: 75px;
-    }
-}
-
 /* @media (min-width: 3840px) {
     h1 {
         font-size: 1rem;
@@ -57,4 +47,69 @@ button:hover {
     display: flex;
     justify-content: space-evenly;
     max-width: 3000px;
+}
+
+.LearnAdvertiseBox {
+    background-color: antiquewhite;
+    width: 30%;
+}
+
+.LearnAdvertiseBox p {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.bigNum {
+    padding-top: 40px;
+    font-size: 7rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px;
+}
+
+.mediumText {
+    padding: 20px;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0px;
+}
+
+.smallText {
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 40px;
+    margin: 20px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 0.8rem;
+    }
+    button {
+        font-size: 0.7rem;
+        width: 75px;
+    }
+
+    .bigNum {
+        font-size: 3rem;
+        padding-top: 10px;
+    }
+    
+    .mediumText {
+        font-size: 0.8rem;
+        padding: 0;
+    }
+    
+    .smallText {
+        font-size: 0.6rem;
+        padding: 0;
+        margin: 10px;
+    }
 }
