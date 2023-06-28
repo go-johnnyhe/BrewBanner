@@ -11,7 +11,7 @@ const Landing = () => {
                 </div>
                 <div style={{'max-width': '500px', width: '25%', 'margin-top': '10%'}}>
                     <h1 style={{'text-align': 'right'}}>Promote a cause while reducing operating costs</h1>
-                    <button style={{float: 'right'}}>Distribute with us</button>
+                    <button style={{float: 'right', 'background-color': 'black'}}>Distribute with us</button>
                 </div>
             </div>            
         </>

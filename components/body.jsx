@@ -6,7 +6,7 @@ import LearnAdvertise from "./LearnAdvertise"
 export default function body() {
     return (
         <>
-        <Landing/>
+        <LandingTwo/>
         <LearnAdvertise/>
         </>
     )
