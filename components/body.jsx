@@ -4,19 +4,14 @@ import LandingTwo from "./LandingTwo"
 import LearnAdvertise from "./LearnAdvertise"
 import Locations from "./Locations"
 import Mission from "./Mission"
+import Promote from "./Promote"
 
 export default function body() {
     return (
         <>
-        <LandingTwo/>
+        {/* <Landing/> */}
+        <LandingTwo />
         <LearnAdvertise/>
-        <Locations/>
-        <Mission/>
-        <div style={{display: 'flex', 'justifyContent': 'center'}}>\
-                <a href="/contact">
-                        <button>Contact Us</button>        
-                </a>
-        </div>
         </>
     )
 }
