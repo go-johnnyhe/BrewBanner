@@ -4,6 +4,7 @@ export default function body() {
         <>
         <LandingTwo/>
         <LearnAdvertise/>
+        <Promote/>
         <Locations/>
         <Mission/>
         <div style={{display: 'flex', 'justifyContent': 'center'}}>\
@@ -11,16 +12,6 @@ export default function body() {
                         <button>Contact Us</button>        
                 </a>
         </div>
-        </>
-    )
-}
-export default function body() {
-    return (
-        <>
-        {/* <Landing/> */}
-        <LandingTwo />
-        <LearnAdvertise/>
-        <Promote/>
         </>
     )
 }
