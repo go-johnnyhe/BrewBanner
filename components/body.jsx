@@ -5,6 +5,7 @@ import LearnAdvertise from "./LearnAdvertise"
 import Locations from "./Locations"
 import Mission from "./Mission"
 import Promote from "./Promote"
+import Contact from "./Contact"
 
 export default function body() {
     return (
@@ -12,6 +13,10 @@ export default function body() {
         {/* <Landing/> */}
         <LandingTwo />
         <LearnAdvertise/>
+        <Promote />
+        <Locations />
+        <Mission />
+        <Contact />
         </>
     )
 }
