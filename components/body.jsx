@@ -1,5 +1,5 @@
 import React from "react"
-import Landing from "./Landing"
+// import Landing from "./Landing"
 import LandingTwo from "./LandingTwo"
 import LearnAdvertise from "./LearnAdvertise"
 import Locations from "./Locations"
@@ -10,13 +10,20 @@ import Contact from "./Contact"
 export default function body() {
     return (
         <>
-        {/* <Landing/> */}
-        <LandingTwo />
+        <LandingTwo/>
         <LearnAdvertise/>
         <Promote />
         <Locations />
         <Mission />
         <Contact />
+        <Promote/>
+        <Locations/>
+        <Mission/>
+        <div style={{display: 'flex', 'justifyContent': 'center'}}>\
+                <a href="/contact">
+                        <button>Contact Us</button>        
+                </a>
+        </div>
         </>
     )
 }
