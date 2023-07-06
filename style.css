@@ -462,7 +462,7 @@ li {
   .menu-button::before,
   .menu-button::after {
     display: block;
-    background-color: white;
+    background-color: black;
     position: absolute;
     height: 4px;
     width: 30px;
