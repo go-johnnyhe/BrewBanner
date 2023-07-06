@@ -1,6 +1,6 @@
 import React from "react"
-import Nav from "./components/Nav.jsx"
-import Body from "./components/Body.jsx"
+import Nav from "components/Nav.jsx"
+import Body from "components/Body.jsx"
 
 export default function App() {
     return (
