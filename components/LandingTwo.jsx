@@ -8,6 +8,7 @@ export default function LandingTwo() {
             <img className="landing-img" src="../assets/Brew Banner2.png"/>
             <img className="landing-img" src="../assets/Brew Banner3.png"/>
             <img className="landing-img" src="../assets/Brew Banner4.png"/>
+            d
             <img className="landing-img" src="../assets/Brew Banner5.png"/>
             <img className="landing-img" src="../assets/Brew Banner6.png"/>
         </div> */}
