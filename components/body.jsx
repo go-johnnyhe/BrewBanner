@@ -7,7 +7,7 @@ import Mission from "./Mission"
 import Promote from "./Promote"
 import Contact from "./Contact"
 
-export default function body() {
+export default function Body() {
     return (
         <>
         <LandingTwo/>

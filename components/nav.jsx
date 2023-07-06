@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function nav() {
+export default function Nav() {
 
     // const [responsive, setResponsive] = React.useState(false);
 
