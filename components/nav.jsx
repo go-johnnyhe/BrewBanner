@@ -2,11 +2,11 @@ import React from "react"
 
 export default function nav() {
 
-    const [responsive, setResponsive] = React.useState(false);
+    // const [responsive, setResponsive] = React.useState(false);
 
-    function toggleResponsive(){
-        setResponsive(prev => !prev);
-    } 
+    // function toggleResponsive(){
+    //     setResponsive(prev => !prev);
+    // } 
 
 
     return (
