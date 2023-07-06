@@ -11,6 +11,7 @@ export default function LandingTwo() {
             <img className="landing-img" src="../assets/Brew Banner5.png"/>
             <img className="landing-img" src="../assets/Brew Banner6.png"/>
         </div> */}
+        {/* commenting so I can push */}
         <div className="landing-img-container">
             <img className="landing-img-1" src="../assets/images/Brew Banner1.png"/>
             <img className="landing-img-2" src="../assets/images/Brew Banner2.png"/>
