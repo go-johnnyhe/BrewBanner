@@ -8,7 +8,7 @@ import Contact from "./Contact"
 
 export default function Body() {
     return (
-        <>
+        <div className="main-page">
         <LandingTwo/>
         <LearnAdvertise/>
         <Promote />
@@ -20,6 +20,6 @@ export default function Body() {
                         <button>Contact Us</button>        
                 </a>
         </div>
-        </>
+        </div>
     )
 }

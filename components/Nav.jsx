@@ -6,7 +6,7 @@ export default function Nav() {
 
     <section className="top-nav">
       <div className="nav-logo">
-        BrewBanner
+        brewbanner
       </div>
       <input id="menu-toggle" type="checkbox" />
       <label className='menu-button-container' htmlFor="menu-toggle">
