@@ -2,13 +2,6 @@ import React from "react"
 
 export default function Nav() {
 
-  // const [responsive, setResponsive] = React.useState(false);
-
-  // function toggleResponsive(){
-  //     setResponsive(prev => !prev);
-  // } 
-
-
   return (
 
     <section className="top-nav">
