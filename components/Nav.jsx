@@ -13,10 +13,10 @@ export default function Nav() {
         <div className='menu-button'></div>
       </label>
       <ul className="menu">
-        <li>Home</li>
+        <li><a href='/'>Home</a></li>
         <li>Advertise</li>
         <li>Distribute</li>
-        <li>Contact</li>
+        <li><a href='/contact'>Contact</a></li>
         <li>Support</li>
         <li>Socials</li>
       </ul>

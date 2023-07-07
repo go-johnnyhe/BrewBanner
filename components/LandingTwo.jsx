@@ -14,8 +14,8 @@ export default function LandingTwo() {
         <div className="landing-img-container">
             <img className="landing-img-1" src="../assets/images/old-cup.png"/>
             <div className="button-container">
-            <button className="button1">Advertise with us</button>
-            <button className="button2">Distribute with us</button>
+            <button className="button1">Advertise With Us</button>
+            <button className="button2">Distribute With Us</button>
             </div>
             <img className="new-cup" src="../assets/images/new-cup.png"/>
 
