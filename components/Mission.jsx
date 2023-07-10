@@ -1,7 +1,7 @@
 const Mission = () => {
     return (
         <>
-            <h1 style={{textAlign: 'center', paddingLeft: '38%', paddingRight: '38%'}}>Our Mission</h1>
+            <h1 style={{textAlign: 'center', paddingTop: '80px', paddingBottom: '80px'}}>Our Mission</h1>
             <p style={{textAlign: 'center'}}>Our mission statement goes here</p>
         </>
     )

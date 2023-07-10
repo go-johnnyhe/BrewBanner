@@ -3,7 +3,7 @@ import React from "react"
 export default function Promote() {
     return (
         <div className="promote-container">
-            <h1 className="promote-title">Promote a Cause While Reducing Operating Costs</h1>
+            <h1 className="promote-title" style={{textAlign: 'center', paddingTop: '80px', paddingBottom: '80px'}}>Promote a Cause While Reducing Costs</h1>
             <div className="promote-content">
             <div className="promote-box">
                 <p className="promote-smallText">Number of trees planted since 2023</p>

@@ -1,7 +1,7 @@
 const Locations = () => {
     return (
         <>
-            <h1 style={{textAlign: 'center', paddingLeft: '38%', paddingRight: '38%'}}>Our Coffee Shop Locations</h1>
+            <h1 style={{textAlign: 'center', paddingTop: '80px', paddingBottom: '80px'}}>Our Coffee Shop Locations</h1>
             <div className="diamond-container" style={{'maxLength': '4000px'}}>
                 <div className="diamond"></div>
                 <div className="diamond"></div>

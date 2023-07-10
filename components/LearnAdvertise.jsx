@@ -1,7 +1,7 @@
 const LearnAdvertise = () => {
     return (
         <>
-            <h1 style={{textAlign: 'center', paddingLeft: '38%', paddingRight: '38%'}}>Brew Up Your Brand On Our Unique Platform</h1>
+            <h1 style={{textAlign: 'center', paddingTop: '80px', paddingBottom: '80px'}}>Brew Up Your Brand On Our Unique Platform</h1>
             <div style={{display: 'flex', justifyContent: 'space-evenly'}}>
                <div className="LearnAdvertiseBox">
                     <p className="bigNum">30</p>
