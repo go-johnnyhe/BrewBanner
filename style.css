@@ -1,12 +1,14 @@
 * {
   box-sizing: border-box;
   color: white;
+  /* outline: solid 1px red; */
 }
 
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   background-color: black;
+  overflow-x: hidden;
 }
 
 li a {
@@ -67,39 +69,24 @@ justify-content: center;
 
 .landing-img-1 {
 width: 40%;
-/* margin-right: -180px; */
 margin-right: -10%;
 }
 
 .new-cup {
 width: 40%;
-/* margin-left: -180px; */
 margin-left: -10%;
 }
 
 .button1 {
-/* padding: -15px 5px; */
-/* border-width: 0px; */
-/* font-family: "Poppins", sans-serif; */
-/* border-radius: 30px; */
-/* background-color: #ffd49c; */
-/* color: black; */
 font-size: 16px;
 font-weight:850;
-/* margin-left: 85px; */
-/* margin-left: 5%; */
 white-space: nowrap;
 }
 
 .button2 {
-/* padding: -15px 65px; */
 font-size: 15px;
 font-weight:850;
-/* margin-right: 85px; */
-/* margin-right: 5%; */
 white-space: nowrap;
-/* margin-right: -85px;
-margin-left: -85px; */
 }
 
 @media (max-width: 1448px) {
@@ -108,8 +95,6 @@ margin-left: -85px; */
   font-size: 15px;
   font-weight:850;
   margin-right: -5%;
-  /* margin-right: -55px;
-  margin-left: -55px; */
 }
 
 .button2 {
@@ -117,12 +102,9 @@ margin-left: -85px; */
   font-size: 15px;
   font-weight:850;
   margin-left: -5%;
-  /* margin-right: -55px;
-  margin-left: -55px; */
 }
 
 .landing-container {
-  /* max-width: 2500px; */
   overflow-x: hidden;
   overflow-y: hidden;
   background-color: white;
@@ -132,7 +114,6 @@ margin-left: -85px; */
 
 @media (max-width: 1025px) {
 .landing-container {
-  /* max-width: 2500px; */
   overflow-x: hidden;
   overflow-y: hidden;
   background-color: white;
@@ -159,8 +140,6 @@ margin-left: -85px; */
   padding: 8px 22px;
   font-size: 15px;
   font-weight:850;
-  /* margin-right: 0;
-  margin-left: 0; */
 }
 
 
@@ -168,24 +147,19 @@ margin-left: -85px; */
   padding: 8px 22px;
   font-size: 15px;
   font-weight:850;
-  /* margin-right: 0;
-  margin-left: 0; */
 }
 
 }
 
 @media (max-width: 769px) {
 .landing-container {
-  /* max-width: 2500px; */
   overflow-x: hidden;
-  /* overflow-y: hidden; */
   background-color: black;
 }
 
 .landing-img-container {
   height: 100vh;
   width: 100vw;
-  /* overflow-y: hidden; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -201,42 +175,36 @@ margin-left: -85px; */
 .landing-img-1 {
   width: 50%;
   margin-right: 0;
-  /* order: 1; */
 }
 
 .new-cup {
   width: 50%;
   margin-left: 0;
-  /* display: none; */
-  /* order: 2; */
 }
 
 .button1 {
   padding: 15px 110px 15px 110px;
   margin-bottom: 50px;
-  /* width: 80vw; */
-  /* margin-right: 29px; */
   font-size: 14px;
   font-weight:550;
   align-self: center;
-  /* margin-right: 20;
-  margin-left: 20; */
   white-space: nowrap;
   order: 2;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button2 {
   padding: 15px 110px;
   margin-bottom: 0px;
-  /* width: 80vw; */
   margin-right: 0;
   font-size: 14px;
   font-weight:550;
   align-self: center;
-  /* margin-right: 20;
-  margin-left: 20; */
   white-space: nowrap;
-  order: 3;
+  order: 2;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 }
@@ -244,11 +212,43 @@ margin-left: -85px; */
 li {
 color: white;
 }
+.LearnAdvertise-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 2fr 2fr; 
+  height: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+  /* gap: 30px; */
+}
 
 .LearnAdvertiseBox {
-  background-color: white;
+  /* grid-column: span 2; */
+  /* background-color: white; */
   width: 30%;
+  aspect-ratio: 1/1;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+/* .LearnAdvertiseBox-1 {
+  grid-column: 1;
+  grid-row: span 2;
+  background-color: white;
+  height: 100%;
+}
+.LearnAdvertiseBox-2 {
+  grid-column: 2 ;
+  grid-row: span 2;
+  background-color: white;
+}
+.LearnAdvertiseBox-3 {
+  grid-column: 3;
+  grid-row: span 2;
+  background-color: white;
+} */
 
 .LearnAdvertiseBox p {
   background-color: white;
@@ -256,15 +256,16 @@ color: white;
 }
 
 .bigNum {
-  padding-top: 40px;
-  font-size: 7rem;
+  /* padding-top: 40px; */
+  font-size: 12rem;
   font-weight: 700;
   text-align: center;
   margin: 0px;
+  border: 1px solid white;
 }
 
 .bigNum2 {
-padding-top: 0px;
+/* padding-top: 0px; */
 font-size: 7rem;
 font-weight: 700;
 text-align: center;
@@ -279,6 +280,7 @@ margin: 0px;
   padding-left: 10%;
   padding-right: 10%;
   margin: 0px;
+  border: 1px solid white;
 }
 
 .smallText {
@@ -290,6 +292,12 @@ margin: 0px;
   padding-right: 5%;
   padding-bottom: 40px;
   margin: 20px;
+}
+
+.promote-subtitle {
+  text-align: center;
+  color: white;
+  font-weight: 300;
 }
 
 .promote-smallText {
@@ -306,14 +314,10 @@ margin: 20px;
 
 .promote-container {
 color: black;
-/* background-color: white; */
 }
 
 .promote-title {
 text-align: center;
-/* padding-left: 32%;
-padding-right: 32%; */
-/* font-size: 1em; */
 }
 
 .promote-content {
@@ -330,7 +334,6 @@ margin-bottom: 5%;
 
 .promote-textgroup {
 margin-left: 2%;
-/* color: white; */
 }
 
 .promote-text {
@@ -342,16 +345,6 @@ color: white;
 font-size: 1.5em;
 font-weight: 600;
 color: white;
-}
-
-@media (max-width: 769px) {
-  h1 {
-      font-size: 0.8rem;
-  }
-  button {
-      font-size: 0.7rem;
-      width: 75px;
-  }
 }
 
 .nav-container {
@@ -366,6 +359,7 @@ color: white;
   font-size: 1.25rem;
   color:white;
   font-weight: 900;
+  display: none;
 }
 
 .nav-tag {
@@ -421,11 +415,19 @@ color: white;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   background-color: black;
   color: white;
   height: 50px;
   padding: 1em;
+  overflow-x: hidden;
+}
+
+.new-logo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  vertical-align: middle;
+  line-height: 1;
 }
 
 .menu {
@@ -434,6 +436,7 @@ color: white;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  /* justify-content: center; */
 }
 
 .menu > li {
@@ -493,7 +496,7 @@ color: white;
 
 .diamond-container {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 10px;
   justify-items: center;
 }
@@ -569,6 +572,11 @@ color: white;
 }
 
 @media (max-width: 700px) {
+  .nav-logo {
+    display: block;
+    margin-right: auto;
+  }
+
   .menu-button-container {
     display: flex;
   }
@@ -603,46 +611,15 @@ color: white;
     padding: 0.5em 0;
     width: 100%;
     color: white;
-    background-color: #222;
+    background-color: black;
   }
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
-}
 
-@media (max-width: 769px) {
-  
-    h1 {
-        font-size: 0.8rem;
-        color: #ffd49c;
-    }
-    
-    button {
-        font-size: 0.7rem;
-        width: 75px;
-    }
-
-    .bigNum {
-        font-size: 3rem;
-        padding-top: 10px;
-    }
-
-    .mediumText {
-        font-size: 0.8rem;
-        padding: 0;
-    }
-
-    .smallText {
-        font-size: 0.6rem;
-        padding: 0;
-        margin: 10px;
-    }
-
-    .diamond {
-      height: 50px;
-      width: 50px;
-    }
-
+  .new-logo {
+    display: none !important;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -665,46 +642,106 @@ color: white;
 
   .landing-img-1 {
     width: 40%;
-    /* margin-right: -180px; */
-    /* margin-right: -10%; */
     }
     
     .new-cup {
     width: 40%;
-    /* margin-left: -180px; */
-    /* margin-left: -10%; */
     }
 
     .button1 {
       padding: -1px 6px;
       font-size: 15px;
       font-weight:850;
-      /* margin-right: -5%; */
-      /* margin-right: -55px; */
-      /* margin-left: 55px; */
     }
 
     .button2 {
       padding: -1px 6px;
       font-size: 15px;
       font-weight:850;
-      /* margin-left: -5%; */
       }
 
 .bigNum {
-  font-size: 5rem;
-  padding-top: 10px;
+  font-size: 10rem;
+  /* padding-top: 10px; */
 }
 
 .mediumText {
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     padding: 0;
 }
 
-.smallText {
-    font-size: 1.8rem;
+/* .smallText {
+    font-size: 0.8rem;
     padding: 0;
     margin: 10px;
+} */
+
 }
+
+@media (max-width: 769px) {
+  
+  h1 {
+      font-size: 1.6rem;
+  }
+  
+  button {
+      font-size: 0.7rem;
+      width: 75px;
+  }
+
+  .bigNum {
+      font-size: 8rem;
+      /* padding-top: 10px; */
+  }
+
+  .mediumText {
+      font-size: 1.7rem;
+      padding: 0;
+  }
+
+  .smallText {
+      font-size: 1rem;
+      padding: 0;
+      /* margin: 10px; */
+  }
+
+  .diamond {
+    height: 2.5em;
+    width: 2.5em;
+  }
+
+}
+
+@media (max-width: 576px) {
+  
+  h1 {
+      font-size: 1rem;
+  }
+  
+  button {
+      font-size: 0.7rem;
+      width: 75px;
+  }
+
+  .bigNum {
+      font-size: 3rem;
+      /* padding-top: 10px; */
+  }
+
+  .mediumText {
+      font-size: 0.8rem;
+      padding: 0;
+  }
+
+  .smallText {
+      font-size: 0.8rem;
+      padding: 0;
+      margin: 10px;
+  }
+
+  .diamond {
+    height: 2.5em;
+    width: 2.5em;
+  }
 
 }

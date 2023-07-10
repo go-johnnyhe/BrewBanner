@@ -13,8 +13,8 @@ const Locations = () => {
                 <div className="diamond"></div>
                 <div className="diamond"></div>
                 <div className="diamond"></div>
-                <div className="diamond"></div>
-                <div className="diamond"></div>
+                {/* <div className="diamond"></div>
+                <div className="diamond"></div> */}
             </div>
             <div style={{display: 'flex', 'justifyContent': 'center', margin: '50px'}}>
                 <button>Learn More</button>
