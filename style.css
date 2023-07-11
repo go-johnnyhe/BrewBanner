@@ -121,8 +121,8 @@ Form {
   grid-gap: 0;
   margin-right: auto;
   margin-left: auto;
-  height: 80em;
-  width: 80em;
+  height: 50em;
+  width: 50em;
 }
 
 li {
@@ -153,7 +153,7 @@ color: white;
 
 .bigNum2 {
   /* padding-top: 0px; */
-  font-size: 9.5rem;
+  font-size: 6.5rem;
   font-weight: 600;
   text-align: center;
   margin: 0px;
@@ -190,7 +190,7 @@ color: white;
 
 .promote-smallText {
 padding: 20px;
-font-size: 3.1rem;
+font-size: 2rem;
 font-weight: 600;
 text-align: center;
 /* padding-bottom: 40px; */
@@ -304,9 +304,9 @@ color: white;
       font-size: 6.5rem;
     }
   
-    .promote-text {
+    /* .promote-text {
   
-    }
+    } */
   
     .promote-smallText {
       font-size: 2rem;
