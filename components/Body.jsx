@@ -14,11 +14,6 @@ export default function Body() {
         <Promote />
         <Locations />
         <Mission />
-        <div style={{display: 'flex', 'justifyContent': 'center'}}>
-                <a href="/contact">
-                        <button>Contact Us</button>        
-                </a>
-        </div>
         </div>
     )
 }

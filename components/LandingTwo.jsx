@@ -17,14 +17,6 @@ export default function LandingTwo() {
 
     return (
     <section className="landing-container">
-        {/* <div className="landing-img-container">
-            <img className="landing-img-1" src="../assets/images/Brew Banner1.png"/>
-            <img className="landing-img-2" src="../assets/images/Brew Banner2.png"/>
-            <img className="landing-img-3" src="../assets/images/Brew Banner3.png"/>
-            <img className="landing-img-4" src="../assets/images/Brew Banner4.png"/>
-            <img className="landing-img-5" src="../assets/images/Brew Banner5.png"/>
-            <img className="landing-img-6" src="../assets/images/Brew Banner6.png"/>
-        </div> */}
         <div className="landing-img-container">
             <button className="button1">Advertise With Us</button>
             {windowWidth > 769 ? 
@@ -38,9 +30,6 @@ export default function LandingTwo() {
                 </div>}
             <button className="button2">Distribute With Us</button>
         </div>
-        {/* <div className="landing-buttons">
-
-        </div> */}
     </section>
     )
 }
