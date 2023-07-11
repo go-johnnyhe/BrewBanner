@@ -89,6 +89,18 @@ font-weight:850;
 white-space: nowrap;
 }
 
+.form-container {
+  text-align: center;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+Form {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
+}
+
 @media (max-width: 1448px) {
 .button1 {
   padding: -15px 65px;
