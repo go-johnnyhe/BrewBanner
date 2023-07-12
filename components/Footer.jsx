@@ -1,8 +1,17 @@
+import { useNavigate } from 'react-router-dom';
+
 export default function Footer() {
+
+    const navigateTo = useNavigate();
+
+    function handleOnclick() {
+        navigateTo("./contact");
+    }
+
     return (
         <div className="footer-container">
-            <p class="mission">We aim to provide effective advertising solutions to businesses while simultaneously aiding coffee shops in reducing costs by supplying free coffee cups.</p>
-            <button className="button3">About us</button>
+            <p className="mission">We aim to provide effective advertising solutions to businesses while simultaneously aiding coffee shops in reducing costs by supplying free coffee cups.</p>
+            <button onClick={handleOnclick} className="button3">Contact us</button>
             <div className="footer-line">
             <img className="footer-icon" src="../assets/images/instagram.svg" alt="instagram" />
             <img className="footer-icon" src="../assets/images/linkedin.svg" alt="linkedin" />
