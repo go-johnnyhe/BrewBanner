@@ -2,9 +2,9 @@ import React from "react"
 import LandingTwo from "./LandingTwo"
 import LearnAdvertise from "./LearnAdvertise"
 import Locations from "./Locations"
-import Mission from "./Mission"
 import Promote from "./Promote"
-import Contact from "./Contact"
+import Footer from "./Footer"
+
 
 export default function Body() {
     return (
@@ -13,7 +13,7 @@ export default function Body() {
         <LearnAdvertise/>
         <Promote />
         <Locations />
-        <Mission />
+        <Footer />
         </div>
     )
 }

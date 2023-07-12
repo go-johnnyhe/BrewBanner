@@ -108,6 +108,58 @@ border-color: black;
   margin: 20px auto;
 }
 
+.contact-form {
+  margin-top: 50px;
+  /* height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-evenly; */
+  
+}
+
+/* experiment */
+
+form div {
+  margin-top: 1rem;
+}
+
+label,
+input,
+textarea
+{
+  font-size: 1.3rem;
+  line-height: 1.2
+}
+
+form {
+  width: 30em;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+label {
+  margin-bottom: 0.4rem;
+  display: block;
+}
+
+input,
+textarea {
+  padding: 0.4rem;
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+
+input {
+  margin-bottom: 1em;
+}
+
+input::placeholder {
+  font-style: italic;
+}
+/* ends */
+
+
 Form {
   border: 1px solid lightgray;
   border-radius: 10px;
@@ -237,6 +289,49 @@ margin-left: 2%;
 font-size: 1.5em;
 font-weight: 600;
 color: white;
+}
+
+.footer-container {
+  background-color: white;
+  padding: 3em;
+  /* padding */
+}
+
+.footer-icon {
+  width: 1.5rem;
+}
+
+.mission {
+  font-size: 1.8em;
+  text-align: center;
+  font-weight: 600;
+  /* margin-top: 2em; */
+}
+
+.button3 {
+  /* align-self: center; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  background-color: white;
+color: black;
+border-color: black;
+font-size: 16px;
+/* font-weight:850; */
+white-space: nowrap;
+}
+
+.footer-line {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3em;
+}
+
+.footer-logo {
+  font-size: 1.25rem;
+    font-weight: 700;
+    vertical-align: middle;
+    line-height: 1;
 }
 
 .nav-container {
@@ -407,6 +502,11 @@ color: white;
     order: 2;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .button3 {
+    padding: 12px 60px;
+    font-size: 0.7em;
   }
   
   }
@@ -783,6 +883,17 @@ color: white;
     padding: 15px 70px;
     font-size: 0.8em; 
   }
+
+  .mission {
+    font-size: 1em;
+  }
+
+  .button3 {
+    padding: 12px 60px;
+    font-size: 0.7em;
+  }
+
+
 
 }
 
