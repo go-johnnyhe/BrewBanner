@@ -1,6 +1,13 @@
 import React from "react"
+import { useNavigate } from 'react-router-dom';
 
 export default function Promote() {
+    const navigateTo = useNavigate();
+
+    function handleOnclick() {
+        navigateTo("/soon");
+    }
+
     return (
         <div className="promote-container">
             <h1 className="promote-title header-galaxy" style={{paddingTop: '80px', paddingBottom: '80px'}}>Promote a Cause While Reducing Costs</h1>
@@ -21,7 +28,7 @@ export default function Promote() {
                 </div>
             </div>
             <div style={{display: 'flex', 'justifyContent': 'center', margin: '30px'}}>
-                <button className="learn-more" style={{marginTop: '30px'}}>Learn More</button>
+                <button className="learn-more" style={{marginTop: '30px'}} onClick={handleOnclick}>Learn More</button>
             </div>
         </div>
     )
