@@ -27,7 +27,7 @@ const LearnAdvertise = () => {
         <div className="LearnAdvertiseBox">
           <p className="bigNum bigNumMargin">30</p>
           <p className="mediumText">minutes</p>
-          <p className="smallText">of personal connection</p>
+          <p className="smallText">of extended personal connection</p>
         </div>
 
         <div className="LearnAdvertiseBox">
