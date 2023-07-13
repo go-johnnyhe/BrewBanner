@@ -362,6 +362,23 @@ white-space: nowrap;
   color: brown;
 }
 
+.soon-container {
+  height: 90vh;
+  background: url('public/assets/images/bg1.jpg') no-repeat center center fixed;
+  background-size: 70%;
+
+  /* background-color: white; */
+}
+
+.soon-text {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  overflow-y: hidden;
+  font-size: 2rem;
+}
+
 /* Responsive Attempt */
 
 .nav-container .hamburger {
@@ -812,6 +829,10 @@ white-space: nowrap;
   h1 {
       font-size: 1.6rem;
   }
+
+  .soon-text h1 {
+    font-size: 2rem;
+  }
   
   button {
       font-size: 0.7rem;
@@ -852,6 +873,10 @@ white-space: nowrap;
   
   h1 {
       font-size: 1rem;
+  }
+  
+  .soon-text h1 {
+    font-size: 1.5rem;
   }
   
   button {
