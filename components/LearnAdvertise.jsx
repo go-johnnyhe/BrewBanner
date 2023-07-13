@@ -1,4 +1,12 @@
+import { useNavigate } from 'react-router-dom';
+
 const LearnAdvertise = () => {
+    const navigateTo = useNavigate();
+
+    function handleOnclick() {
+        navigateTo("/soon");
+    }
+
     return (
         <>
             <h1 style={{textAlign: 'center', paddingTop: '80px'}} className="header-galaxy">Brew Up Your Brand On Our Unique Platform</h1>
@@ -25,7 +33,7 @@ const LearnAdvertise = () => {
             {/* </div> */}
             </div>
             <div style={{display: 'flex', 'justifyContent': 'center', margin: '30px'}}>
-                <button className="learn-more">Learn More</button>
+                <button className="learn-more" onClick={handleOnclick}>Learn More</button>
             </div>
         </>
     )
