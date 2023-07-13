@@ -363,20 +363,22 @@ white-space: nowrap;
 }
 
 .soon-container {
-  height: 90vh;
-  background: url('public/assets/images/bg1.jpg') no-repeat center center fixed;
-  background-size: 70%;
+  height: 94vh;
+  max-height: 94vh;
+  background: url('public/assets/images/bg8.jpg') no-repeat center center fixed;
+  background-size: 100%;
 
   /* background-color: white; */
 }
 
 .soon-text {
-  height: 100%;
+  height: 95%;
   display: flex;
   justify-content: center;
   align-items: center;  
   overflow-y: hidden;
   font-size: 2rem;
+  font-family: 'Source Sans Pro';
 }
 
 /* Responsive Attempt */
@@ -463,6 +465,13 @@ white-space: nowrap;
     font-weight:850;
   }
   
+  }
+
+  @media (max-width: 900px) {
+    .soon-text {
+      /* height: 85%; */
+      font-size: 2rem;
+    }
   }
   
   @media (max-width: 769px) {
@@ -713,6 +722,11 @@ white-space: nowrap;
 }
 
 @media (max-width: 700px) {
+
+  .soon-text {
+    height: 75%;
+  }
+
   .nav-logo {
     display: block;
     margin-right: auto;
@@ -817,6 +831,12 @@ white-space: nowrap;
 
 }
 
+@media (max-width: 935px) {
+  .soon-text h1 {
+    font-size: 2.5rem;
+  }
+}
+
 @media (max-width: 800px) {
   .promote-content {
     height: 40em;
@@ -831,7 +851,7 @@ white-space: nowrap;
   }
 
   .soon-text h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   
   button {
@@ -870,13 +890,13 @@ white-space: nowrap;
 } 
 
 @media (max-width: 576px) {
-  
+
   h1 {
       font-size: 1rem;
   }
   
   .soon-text h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   
   button {
@@ -932,6 +952,10 @@ white-space: nowrap;
     height: 25em;
     width: 25em;
   }
+
+  .soon-text h1 {
+    font-size: 1.7rem;
+  }
 }
 
 @media (max-width: 400px) {
@@ -955,6 +979,10 @@ white-space: nowrap;
   }
   .header-galaxy {
     font-size: 0.75em;
+  }
+
+  .soon-text h1 {
+    font-size: 1.5rem;
   }
 }
 
@@ -999,6 +1027,14 @@ white-space: nowrap;
 
   .smallText {
     font-size: 0.6rem;
+  }
+
+  .soon-text {
+    /* height: 92%; */
+  }
+
+  .soon-text h1 {
+    font-size: 1.5rem;
   }
 
 

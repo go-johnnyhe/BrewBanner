@@ -8,13 +8,13 @@ import Soon from "./Soon";
 
 export default function Body() {
   return (
-    // <div className="main-page">
-    // <LandingTwo/>
-    // <LearnAdvertise/>
-    // <Promote />
-    // <Locations />
-    // <Footer />
-    // </div>
-    <Soon />
+    <div className="main-page">
+      <LandingTwo />
+      <LearnAdvertise />
+      <Promote />
+      <Locations />
+      <Footer />
+    </div>
+    // <Soon />
   );
 }
