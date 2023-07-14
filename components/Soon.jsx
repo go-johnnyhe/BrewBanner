@@ -5,7 +5,7 @@ export default function Soon() {
     height: "94vh",
     maxHeight: "94vh",
     background:
-      "url('public/assets/images/bg8.jpg') no-repeat center center / 100% fixed",
+      "url('/assets/images/bg8.jpg') no-repeat center center / 100% fixed",
     // backgroundSize: "100%",
   };
 
@@ -14,7 +14,7 @@ export default function Soon() {
     // width: "100vw",
     maxHeight: "94vh",
     background:
-      "url('public/assets/images/bg12.jpg') no-repeat center center / 100% fixed",
+      "url('/assets/images/bg12.jpg') no-repeat center center / 100% fixed",
     // backgroundSize: "100%",
   };
 
